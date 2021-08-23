@@ -1,0 +1,12 @@
+{
+  "name": "tailwind-demo",
+  "scripts": {
+    "start": "imba -w server.imba",
+    "build": "imba build server.imba",
+    "css": "npx tailwindcss -i ./tailwind.css -o ./app/assets/tailwind.css -w"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "imba": "^2.0.0-alpha.165"
+  }
+}
