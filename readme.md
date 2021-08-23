@@ -17,3 +17,7 @@ You will also see any lint errors in the console.
 ### `npm run build`
 
 Builds the app for production to the `dist` folder.
+
+### `npm run css`
+
+ Starts a watch process for Tailwind CSS that regenerates the CSS file every time you edit a `.imba` file
